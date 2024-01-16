@@ -12,7 +12,7 @@ function Cart  (props) {
 
   return (
     <>
-    <div>Cart</div>
+    <div className='home6'>Your Cart</div>
 
     <div>{PRODUCTS.map((product) => {
           const { id } = product;

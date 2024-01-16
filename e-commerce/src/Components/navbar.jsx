@@ -5,21 +5,21 @@ import { CodesandboxLogo } from 'phosphor-react';
 
 function Navbar () {
   return (
-    <>
-    <div>DroidTech <CodesandboxLogo size={32} /></div>
+    <div className='home15'>
+    <div className='logo'>DroidTech <CodesandboxLogo size={32} /></div>
 
     <div>
 
-    <div>
+    <div className='home16'>
 
-    <Link to="/" > Home </Link>
-    <Link to="/cart" > <ShoppingCart/> </Link>
+    <p className='home17'><Link to="/" > Home </Link></p>
+    <p className='home18'><Link to="/cart" > <ShoppingCart/> </Link></p>
 
     </div>
 
     </div>
     
-    </>
+    </div>
     
   )
 }

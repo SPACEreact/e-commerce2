@@ -6,7 +6,7 @@ import  Products  from './products';
 function Shop () {
   return (
     <>
-    <div className='title'>Shop</div>
+   
 
     <div className='prod'>
       

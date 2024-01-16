@@ -1,6 +1,6 @@
 
 import React , {useContext} from 'react'
-import {PRODUCTS} from '../../Product'
+//import {PRODUCTS} from '../../Product'
 import { ShopContext } from '../../context/shop-context';
 
 
@@ -14,18 +14,18 @@ const CartItem = (props) => {
 
     
   return (
-    <>
-    <div>cartItem</div>
+    <div className='home'>
+    
 
-    <img src={productImage}/>
-    <div>Discription</div>
-    <div>{productName}</div>
+    <img className='home1' src={productImage}/>
+   
+    <div className='home2'>{productName}</div>
     <p>{price}</p>
   
-    <button onClick={() => addToCart(id)}>+{cartItemAmount > 0 && <>{cartItemAmount}</>}</button> 
-    <input value={cartItems[id]} onChange={(e) => updateHahAmount(id, Number(e.target.value))}></input>
-    <button onClick={() => removeFromCart(id)}>- {cartItemAmount > 0 && <>{cartItemAmount}</>}</button>
-    </>
+    <button className='home3' onClick={() => addToCart(id)}>+</button> 
+    <input className='home4' value={cartItems[id]} onChange={(e) => updateHahAmount(id, Number(e.target.value))}></input>
+    <button className='home5' onClick={() => removeFromCart(id)}>- </button>
+    </div >
   )
 }
 

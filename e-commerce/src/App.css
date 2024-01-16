@@ -1,38 +1,107 @@
-.App {
+
+
+/* Style for the entire navbar container */
+.home15 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+/* Style for the logo */
+.home15 .logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+/* Style for the navigation links container */
+.home16 {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the individual navigation links */
+.home17,
+.home18 {
+  margin: 0 15px;
+}
+
+.home17 a,
+.home18 a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.home17 a:hover,
+.home18 a:hover {
+  color: #2ecc71; /* Change color on hover */
+}
+
+/* Style for the shopping cart icon */
+.home18 .cart-icon {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+/* Style for the container of each cart item */
+
+/* Style for the cart item container */
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd; /* Optional: add a border for separation */
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 70%;
+}
+
+/* Style for the product image */
+.home1 {
+  max-width: 80px;
+  height: auto;
+}
+
+/* Style for the product name */
+.home2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Style for the product price */
+.home p {
+  font-size: 14px;
+  color: green;
+  margin: 0;
+}
+
+/* Style for the buttons and input field */
+.home3,
+.home4,
+.home5 {
+  background-color: #3498db;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Style for the input field */
+.home4 {
+  width: 40px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Style for the container of each product card */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

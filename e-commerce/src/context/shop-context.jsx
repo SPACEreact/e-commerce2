@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 
-import React from 'react'
+
 
 import { PRODUCTS} from '../Product';
 
